@@ -129,6 +129,7 @@ int deletar()
 		printf("\t1 - Registrar Nomes\n");
 		printf("\t2 - Consultar Nomes\n");
 		printf("\t3 - Deletar Nomes\n\n");
+		printf("\t4 - sair do cartorio EBAC! \n\n");
 		printf("opção: ");  //fim do menu
 
 		scanf("%d", &opcao); //armazenando escolha do usuario
@@ -147,6 +148,11 @@ int deletar()
 			
 			case 3:
 			deletar(); //chamada de funçoes
+			break;
+			
+			case 4: 
+			printf("obrigado por utilizar o sistema! \n");
+			return 0;
 			break;
 			
 			default:
